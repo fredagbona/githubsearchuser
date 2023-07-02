@@ -1,6 +1,6 @@
 function printValue() {
   let searchUser = document.getElementById("search_bar").value;
-  const accessToken = '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';
+  const accessToken = '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';
   const headers = new Headers();
   headers.append('Authorization', `token ${accessToken}`);
 
@@ -20,7 +20,7 @@ function printValue() {
     heading.textContent = "Single User Infos";
   
     var paragraph = document.createElement("p");
-    paragraph.innerHTML = "Name : " + data.name + "  <br> Login : " + data.login + " <br> Repos Count : " + data.public_repos + " ";
+    paragraph.innerHTML = "Name : " + data.name + "  <br> Login : " + data.login + " <br> Repos Count : " + data.public_repos + " <br> Folowers :  " + data.followers;
   
     var image = document.createElement("img");
     image.src = data.avatar_url;
