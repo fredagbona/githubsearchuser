@@ -6,7 +6,7 @@ Github User Searching is web app that uses Github API for provides some informat
 
 ## How it works
 
-When you enter a username in search bar, if this user exists, the result will be a user card with user's informations. If user don't exists, the result wil be a error message  and if you click search button within empty search bar, the result will be a list of 40 defaults users on Github with informations of each of them
+When you enter a username in search bar, if this user exists, the result will be a user card with user's informations. If user don't exists, the result wil be a error message  and if you click search button within empty search bar, the result will be a list of 40 defaults users on Github with informations of each of them !
 
 ### Link to test 
 

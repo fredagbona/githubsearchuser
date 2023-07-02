@@ -4,6 +4,19 @@
 #container>center>ul>li{
   display: inline-block;
 }
+center>ul{
+  list-style-type: none;
+}
+
+center>ul>li{
+  display: inline-block;
+}
+center>ul>li>a{
+  text-decoration: none;
+  color: rgb(30, 162, 151);
+  font-size: 1.2rem;
+  
+}
 #search_bar{
    padding: 5px;
 }
@@ -104,15 +117,17 @@
     color: red;
   }
   
-  .footer{
-   
-    bottom: 0;
-    left: 0;
+  footer {
     position: fixed;
-    padding: 10px;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: rgb(30, 162, 151);
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
   }
+  
 
 /* Responsivity */
 @media screen and (max-width: 400px) {

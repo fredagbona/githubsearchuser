@@ -1,6 +1,6 @@
 function printValue() {
   let searchUser = document.getElementById("search_bar").value;
-  const accessToken = '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';
+  const accessToken = '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';
   const headers = new Headers();
   headers.append('Authorization', `token ${accessToken}`);
 
