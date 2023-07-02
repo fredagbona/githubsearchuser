@@ -10,7 +10,7 @@ When you enter a username in search bar, if this user exists, the result will be
 
 ### Link to test 
 
-[Visit here](https://githubsearchuser.netlify.app)
+[Visit here](https://githubsearchinguser.netlify.app)
 
 
 Feel free to fork this project or clone it to make improvements especially on the design. I will appreciate it.
