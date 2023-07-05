@@ -12,6 +12,8 @@ When you enter a username in search bar, if this user exists, the result will be
 
 [Visit here](https://githubsearchinguser.netlify.app)
 
+If the link doesn't work, it's because it's static project, so the API Token cannot be showed, other version of same project will be pushed with dynamic environment !
+
 
 Feel free to fork this project or clone it to make improvements especially on the design. I will appreciate it.
 
