@@ -1,7 +1,6 @@
-localStorage.setItem('GITHUB_TOKEN', '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');
 function printValue() {
   let searchUser = document.getElementById("search_bar").value;
-  const accessToken = localStorage.getItem('GITHUB_TOKEN');
+  const accessToken = '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';
   const headers = new Headers();
   headers.append('Authorization', `token ${accessToken}`);
 
